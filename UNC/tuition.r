@@ -14,4 +14,3 @@ ggplot(CDSGrouped, aes(x = Year, y = Tuition, fill = TuitionType)) +
   scale_colour_economist() +
   theme_economist_white(base_size = 11, base_family= "Veranda", gray_bg = TRUE, horizontal = TRUE) 
 
-
